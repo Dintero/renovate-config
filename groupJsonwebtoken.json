@@ -1,0 +1,10 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group and schedule all jsonwebtoken related updates.",
+    "packageRules": [
+        {
+            "groupName": "jsonwebtoken packages",
+            "matchPackagePatterns": ["@types/jsonwebtoken", "jsonwebtoken"]
+        }
+    ]
+}

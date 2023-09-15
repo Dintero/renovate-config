@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group and schedule all @aws-cdk related updates.",
+    "packageRules": [
+        {
+            "groupName": "@aws-cdk packages",
+            "matchPackagePatterns": ["aws-cdk", "aws-cdk-lib", "aws-cdk-local"],
+            "minimumReleaseAge": "10 days"
+        }
+    ]
+}

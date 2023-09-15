@@ -1,0 +1,21 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group jest, ts-jest, jest types, and related packages.",
+    "packageRules": [
+        {
+            "groupName": "Jest packages",
+            "matchSourceUrls": ["https://github.com/facebook/jest"]
+        },
+        {
+            "groupName": "Jest packages",
+            "matchPackagePrefixes": ["@types/jest-", "jest-"],
+            "matchPackageNames": [
+                "@types/jest",
+                "ts-jest",
+                "@types/supertest",
+                "supertest"
+            ],
+            "matchPackagePatterns": ["@cucumber/*"]
+        }
+    ]
+}
