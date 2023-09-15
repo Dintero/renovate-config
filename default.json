@@ -13,7 +13,7 @@
         "github>dintero/renovate-config:groupMantine",
         "github>dintero/renovate-config:groupNode",
         "github>dintero/renovate-config:groupNodeFetch",
-        "github>dintero/renovate-config:groupNodeMajor",
+        "github>dintero/renovate-config:groupNodeMajor(18)",
         "github>dintero/renovate-config:groupReact",
         "github>dintero/renovate-config:groupSentry",
         "github>dintero/renovate-config:groupServerless",
