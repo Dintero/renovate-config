@@ -1,0 +1,16 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group and schedule all eslint related updates.",
+    "packageRules": [
+        {
+            "groupName": "eslint packages",
+            "matchPackagePatterns": [
+                "@typescript-eslint/*",
+                "eslint",
+                "eslint-*",
+                "prettier",
+                "prettier-*"
+            ]
+        }
+    ]
+}

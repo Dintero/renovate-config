@@ -1,0 +1,14 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group and schedule all vite related updates.",
+    "packageRules": [
+        {
+            "groupName": "vite packages",
+            "matchPackagePatterns": [
+                "@vitejs/plugin-react-swc",
+                "vite",
+                "vite-*"
+            ]
+        }
+    ]
+}

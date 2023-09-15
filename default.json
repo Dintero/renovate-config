@@ -1,0 +1,35 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": [
+        "Recommended config which is intended to be appropriate for most projects."
+    ],
+    "extends": [
+        "config:recommended",
+        "github>dintero/renovate-config:groupAwsCdk",
+        "github>dintero/renovate-config:groupAwsSdk",
+        "github>dintero/renovate-config:groupEslint",
+        "github>dintero/renovate-config:groupJest",
+        "github>dintero/renovate-config:groupJsonwebtoken",
+        "github>dintero/renovate-config:groupMantine",
+        "github>dintero/renovate-config:groupNode",
+        "github>dintero/renovate-config:groupNodeFetch",
+        "github>dintero/renovate-config:groupNodeMajor",
+        "github>dintero/renovate-config:groupReact",
+        "github>dintero/renovate-config:groupSentry",
+        "github>dintero/renovate-config:groupServerless",
+        "github>dintero/renovate-config:groupVite"
+    ],
+    "prConcurrentLimit": 5,
+    "labels": ["dependencies"],
+    "printConfig": true,
+    "timezone": "Europe/Oslo",
+    "vulnerabilityAlerts": {
+        "enabled": true
+    },
+    "packageRules": [
+        {
+            "matchDepTypes": ["devDependencies"],
+            "commitMessageTopic": "devDependency {{{depName}}}"
+        }
+    ]
+}

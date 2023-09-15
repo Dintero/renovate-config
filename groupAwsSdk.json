@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group and schedule all @aws-sdk related updates.",
+    "packageRules": [
+        {
+            "groupName": "@aws-sdk packages",
+            "matchPackagePatterns": ["@aws-sdk", "@types/aws"],
+            "minimumReleaseAge": "10 days"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group React packages and types.",
+    "packageRules": [
+        {
+            "groupName": "React packages",
+            "matchPackagePrefixes": ["@types/react-", "react-"],
+            "matchPackageNames": ["@types/react"]
+        }
+    ]
+}

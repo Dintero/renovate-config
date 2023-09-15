@@ -1,0 +1,18 @@
+{
+    "name": "renovate-config",
+    "version": "1.0.0",
+    "description": "Shareable Renovate config",
+    "main": "index.js",
+    "repository": "git@github.com:Dintero/renovate-config.git",
+    "author": "Frode Aannevik <frode@dintero.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "lint": "prettier -c .",
+        "test": "renovate-config-validator group*.json default.json"
+    },
+    "devDependencies": {
+        "prettier": "^3.0.3",
+        "renovate": "^36.94.1"
+    }
+}
