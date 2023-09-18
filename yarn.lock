@@ -1431,10 +1431,10 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-3.0.7.tgz#9dc63dd8618da19bb08c6073afa8e4c20fa6d469"
   integrity sha512-NYFLpPZxvW8//KngYm0wWEIPA1vX/JX/uWoGUfjNK74Y8gS5CxEQGHvj5ZxCIcoxa4aMtYbtLG/dcgTN4WeHww==
 
-"@renovatebot/ruby-semver@3.0.13":
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.0.13.tgz#f8971b2dfcef2ada575f5df5f54a3658112e7bf9"
-  integrity sha512-VZO3BCaL0JToh/T+LwB3invT3J4wbut8gux63aC6xGm1SjrZt5/aNLkjy5/vabDNGXLU442VbVtMIIHVyM91CA==
+"@renovatebot/ruby-semver@3.0.14":
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.0.14.tgz#f508f73eb45d582e23dea89df587f8bf64129b94"
+  integrity sha512-3VFQ8ylW2FcvMzOnN+z0LW497sadrZQIQeIsw5iGAdN/XuYwdwNEZzOp37lAm/KUvs9iSmNZtzE+9ednUQNN4A==
 
 "@seald-io/binary-search-tree@^1.0.3":
   version "1.0.3"
@@ -2363,7 +2363,25 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@17.1.4, cacache@^17.0.0:
+cacache@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-18.0.0.tgz#17a9ecd6e1be2564ebe6cdca5f7cfed2bfeb6ddc"
+  integrity sha512-I7mVOPl3PUCeRub1U8YoGz2Lqv9WOBpobZ8RyWFXmReuILz+3OAyTa5oH3QPdtKZD7N0Yk00aLfzn0qvp8dZ1w==
+  dependencies:
+    "@npmcli/fs" "^3.1.0"
+    fs-minipass "^3.0.0"
+    glob "^10.2.2"
+    lru-cache "^10.0.1"
+    minipass "^7.0.3"
+    minipass-collect "^1.0.2"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    p-map "^4.0.0"
+    ssri "^10.0.0"
+    tar "^6.1.11"
+    unique-filename "^3.0.0"
+
+cacache@^17.0.0:
   version "17.1.4"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-17.1.4.tgz#b3ff381580b47e85c6e64f801101508e26604b35"
   integrity sha512-/aJwG2l3ZMJ1xNAnqbMpA40of9dj/pIH3QfiuQSqjfPJF747VR0J/bHn+/KdNnHKc6XQcWt/AfRSBft82W1d2A==
@@ -3694,6 +3712,11 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
+lru-cache@^10.0.1, "lru-cache@^9.1.1 || ^10.0.0":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.1.tgz#0a3be479df549cca0e5d693ac402ff19537a6b7a"
+  integrity sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==
+
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
@@ -3705,11 +3728,6 @@ lru-cache@^7.7.1:
   version "7.18.3"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.3.tgz#f793896e0fd0e954a59dfdd82f0773808df6aa89"
   integrity sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==
-
-"lru-cache@^9.1.1 || ^10.0.0":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.1.tgz#0a3be479df549cca0e5d693ac402ff19537a6b7a"
-  integrity sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==
 
 luxon@3.4.3, luxon@^3.2.1, luxon@^3.4.3:
   version "3.4.3"
@@ -4088,10 +4106,10 @@ node-gyp@^9.4.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-html-parser@6.1.7:
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.7.tgz#31521a63cc51678d1a9538c7c4b7c5dfd276057d"
-  integrity sha512-OuraCzBo9x0JMTZScoNyWXydOX4kCjNJeSS2MQRbjAMJpfCn/1mQR8Jbsa+UGawX0aP+cbjFd9+EqP9wTroHLQ==
+node-html-parser@6.1.10:
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.10.tgz#5db11eac3ccbea6fc1b04a22c8a0e3a0774cfae6"
+  integrity sha512-6/uWdWxjQWQ7tMcFK2wWlrflsQUzh1HsEzlIf2j5+TtzfhT2yUvg3DwZYAmjEHeR3uX74ko7exjHW69J0tOzIg==
   dependencies:
     css-select "^5.1.0"
     he "1.2.0"
@@ -4579,10 +4597,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^36.94.1:
-  version "36.94.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.94.1.tgz#7c75d3d9ee8855439be671d299ddf1e8e78ea416"
-  integrity sha512-krffBwt+wFddgTI0RAYVFnQEWWd02X97s+RDD3RSHgn3OUWobYYpzVPThW1winwlaoVdkutDrXs6PHXg9g9/PA==
+renovate@^36.96.5:
+  version "36.96.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.96.5.tgz#a22a5e35d43dacf139b961642ce6db67e7b6fc90"
+  integrity sha512-gKChdf9/iKBDMG36Q+LHSISZQRIQxAkUzsF8nRwY+VpBBtJAqH97AnzNiBXg7tU11DMDXbF74sPzH8AZ+XJGIg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4606,7 +4624,7 @@ renovate@^36.94.1:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/osv-offline" "1.3.7"
     "@renovatebot/pep440" "3.0.7"
-    "@renovatebot/ruby-semver" "3.0.13"
+    "@renovatebot/ruby-semver" "3.0.14"
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.31"
     "@types/tmp" "0.2.3"
@@ -4618,7 +4636,7 @@ renovate@^36.94.1:
     aws4 "1.12.0"
     azure-devops-node-api "12.1.0"
     bunyan "1.8.15"
-    cacache "17.1.4"
+    cacache "18.0.0"
     cacheable-lookup "5.0.4"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
@@ -4662,7 +4680,7 @@ renovate@^36.94.1:
     moo "0.5.2"
     ms "2.1.3"
     nanoid "3.3.6"
-    node-html-parser "6.1.7"
+    node-html-parser "6.1.10"
     openpgp "5.10.1"
     p-all "3.0.0"
     p-map "4.0.0"
@@ -5021,6 +5039,7 @@ stream-to-promise@^2.2.0:
     stream-to-array "~2.3.0"
 
 "string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.3:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
