@@ -7,6 +7,7 @@
         "config:recommended",
         "github>dintero/renovate-config:groupAwsCdk",
         "github>dintero/renovate-config:groupAwsSdk",
+        "github>dintero/renovate-config:groupBoto3AwsCli.json",
         "github>dintero/renovate-config:groupEslint",
         "github>dintero/renovate-config:groupJest",
         "github>dintero/renovate-config:groupJsonwebtoken",

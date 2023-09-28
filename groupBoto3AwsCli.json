@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group and schedule all aws related python dependencies",
+    "packageRules": [
+        {
+            "groupName": "boto3 / awscli",
+            "matchPackagePatterns": ["awscli", "boto3", "botocore"],
+            "minimumReleaseAge": "10 days"
+        }
+    ]
+}
