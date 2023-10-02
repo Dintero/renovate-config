@@ -13,6 +13,6 @@
     },
     "devDependencies": {
         "prettier": "^3.0.3",
-        "renovate": "36.107.1"
+        "renovate": "37.2.0"
     }
 }
