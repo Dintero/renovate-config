@@ -3,7 +3,7 @@
     "description": "Group and schedule all sentry updates.",
     "packageRules": [
         {
-            "groupName": "sentry",
+            "groupName": "@sentry",
             "matchPackagePatterns": ["@sentry/*"]
         }
     ]
