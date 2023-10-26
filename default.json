@@ -11,6 +11,7 @@
         "github>dintero/renovate-config:groupEslint",
         "github>dintero/renovate-config:groupJest",
         "github>dintero/renovate-config:groupJsonwebtoken",
+        "github>dintero/renovate-config:groupLodash",
         "github>dintero/renovate-config:groupMantine",
         "github>dintero/renovate-config:groupNode",
         "github>dintero/renovate-config:groupNodeFetch",
