@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group Storybook packages and types.",
+    "packageRules": [
+        {
+            "groupName": "Storybook packages",
+            "matchPackagePrefixes": ["@storybook/"],
+            "matchPackageNames": ["storybook"]
+        }
+    ]
+}
