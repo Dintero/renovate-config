@@ -5,7 +5,7 @@
         {
             "groupName": "boto3 / awscli",
             "matchPackagePatterns": ["awscli", "boto3", "botocore"],
-            "minimumReleaseAge": "10 days"
+            "minimumReleaseAge": "21 days"
         }
     ]
 }
