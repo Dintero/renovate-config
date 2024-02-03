@@ -5,7 +5,7 @@
         {
             "groupName": "@aws-sdk packages",
             "matchPackagePatterns": ["@aws-sdk", "@types/aws"],
-            "minimumReleaseAge": "10 days"
+            "minimumReleaseAge": "21 days"
         }
     ]
 }

@@ -5,7 +5,7 @@
         {
             "groupName": "@aws-cdk packages",
             "matchPackagePatterns": ["aws-cdk", "aws-cdk-lib", "aws-cdk-local"],
-            "minimumReleaseAge": "10 days"
+            "minimumReleaseAge": "21 days"
         }
     ]
 }
