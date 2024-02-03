@@ -10,7 +10,8 @@
                 "eslint-*",
                 "prettier",
                 "prettier-*"
-            ]
+            ],
+            "minimumReleaseAge": "21 days"
         }
     ]
 }
