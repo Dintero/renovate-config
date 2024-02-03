@@ -4,7 +4,8 @@
     "packageRules": [
         {
             "groupName": "node-fetch packages",
-            "matchPackagePatterns": ["@types/node-fetch", "node-fetch"]
+            "matchPackagePatterns": ["@types/node-fetch", "node-fetch"],
+            "allowedVersions": "<3.0.0"
         }
     ]
 }
