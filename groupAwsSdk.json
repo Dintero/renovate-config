@@ -3,9 +3,10 @@
     "description": "Group and schedule all @aws-sdk related updates.",
     "packageRules": [
         {
+            "extends": ["schedule:monthly"],
             "groupName": "@aws-sdk packages",
             "matchPackagePatterns": ["@aws-sdk", "@types/aws"],
-            "minimumReleaseAge": "21 days"
+            "minimumReleaseAge": "10 days"
         }
     ]
 }

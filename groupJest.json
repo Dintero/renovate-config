@@ -3,10 +3,12 @@
     "description": "Group jest, ts-jest, jest types, and related packages.",
     "packageRules": [
         {
+            "extends": ["schedule:monthly"],
             "groupName": "Jest packages",
             "matchSourceUrls": ["https://github.com/facebook/jest"]
         },
         {
+            "extends": ["schedule:monthly"],
             "groupName": "Jest packages",
             "matchPackagePrefixes": ["@types/jest-", "jest-"],
             "matchPackageNames": [
