@@ -1,0 +1,10 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group @rollup",
+    "packageRules": [
+        {
+            "groupName": "@rollup packages",
+            "matchPackagePrefixes": ["@rollup/"]
+        }
+    ]
+}
