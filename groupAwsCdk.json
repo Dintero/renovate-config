@@ -3,9 +3,10 @@
     "description": "Group and schedule all @aws-cdk related updates.",
     "packageRules": [
         {
+            "extends": ["schedule:monthly"],
             "groupName": "@aws-cdk packages",
             "matchPackagePatterns": ["aws-cdk", "aws-cdk-lib", "aws-cdk-local"],
-            "minimumReleaseAge": "21 days"
+            "minimumReleaseAge": "10 days"
         }
     ]
 }

@@ -3,6 +3,7 @@
     "description": "Group and schedule all eslint related updates.",
     "packageRules": [
         {
+            "extends": ["schedule:monthly"],
             "groupName": "eslint packages",
             "matchPackagePatterns": [
                 "@typescript-eslint/*",
@@ -11,7 +12,7 @@
                 "prettier",
                 "prettier-*"
             ],
-            "minimumReleaseAge": "21 days"
+            "minimumReleaseAge": "10 days"
         }
     ]
 }

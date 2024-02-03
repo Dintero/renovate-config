@@ -3,9 +3,10 @@
     "description": "Group and schedule all aws related python dependencies",
     "packageRules": [
         {
+            "extends": ["schedule:monthly"],
             "groupName": "boto3 / awscli",
             "matchPackagePatterns": ["awscli", "boto3", "botocore"],
-            "minimumReleaseAge": "21 days"
+            "minimumReleaseAge": "10 days"
         }
     ]
 }
