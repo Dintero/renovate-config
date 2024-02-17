@@ -16,6 +16,7 @@
         "github>dintero/renovate-config:groupNode",
         "github>dintero/renovate-config:groupNodeFetch",
         "github>dintero/renovate-config:groupNodeMajor(20)",
+        "github>dintero/renovate-config:groupPino",
         "github>dintero/renovate-config:groupReact",
         "github>dintero/renovate-config:groupRollup",
         "github>dintero/renovate-config:groupSentry",
