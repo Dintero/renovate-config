@@ -21,6 +21,7 @@
         "github>dintero/renovate-config:groupRollup",
         "github>dintero/renovate-config:groupSentry",
         "github>dintero/renovate-config:groupServerless",
+        "github>dintero/renovate-config:groupSmithy",
         "github>dintero/renovate-config:groupTestingLibrary",
         "github>dintero/renovate-config:groupVite"
     ],
