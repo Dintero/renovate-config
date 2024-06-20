@@ -25,7 +25,7 @@
         "github>dintero/renovate-config:groupTestingLibrary",
         "github>dintero/renovate-config:groupVite"
     ],
-    "prConcurrentLimit": 5,
+    "prConcurrentLimit": 1,
     "labels": ["dependencies"],
     "printConfig": true,
     "timezone": "Europe/Oslo",
