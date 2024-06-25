@@ -5,7 +5,8 @@
         {
             "groupName": "Node",
             "matchPackageNames": ["@types/node", "node", "nodejs/node"],
-            "matchUpdateTypes": ["major"]
+            "matchUpdateTypes": ["major"],
+            "schedule": ["before 11am on Monday"]
         }
     ]
 }

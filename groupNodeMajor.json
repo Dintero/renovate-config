@@ -5,11 +5,13 @@
         {
             "groupName": "Node",
             "matchPackageNames": ["@types/node", "node", "nodejs/node"],
-            "allowedVersions": "{{arg0}}"
+            "allowedVersions": "{{arg0}}",
+            "schedule": ["before 11am on Monday"]
         },
         {
             "matchManagers": ["npm", "dockerfile"],
-            "constraintsFiltering": "strict"
+            "constraintsFiltering": "strict",
+            "schedule": ["before 11am on Monday"]
         }
     ]
 }
