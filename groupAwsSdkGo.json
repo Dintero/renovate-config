@@ -1,0 +1,15 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group major updates of aws-sdk-go",
+    "packageRules": [
+        {
+            "groupName": "aws/aws-sdk-go",
+            "matchPackageNames": [
+                "github.com/aws/aws-sdk-go",
+                "github.com/aws/aws-sdk-go-v2"
+            ],
+            "matchUpdateTypes": ["major"],
+            "schedule": ["before 11am on Monday"]
+        }
+    ]
+}
