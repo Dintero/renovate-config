@@ -12,7 +12,7 @@
         "test": "renovate-config-validator group*.json default.json"
     },
     "devDependencies": {
-        "prettier": "3.3.2",
+        "prettier": "3.3.3",
         "renovate": "38.17.1"
     }
 }
