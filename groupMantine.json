@@ -4,7 +4,7 @@
     "packageRules": [
         {
             "groupName": "@mantine packages",
-            "matchPackagePatterns": ["@mantine/*"]
+            "matchPackageNames": ["/@mantine/*/"]
         }
     ]
 }

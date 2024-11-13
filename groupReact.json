@@ -4,8 +4,11 @@
     "packageRules": [
         {
             "groupName": "React packages",
-            "matchPackagePrefixes": ["@types/react-", "react-"],
-            "matchPackageNames": ["@types/react"]
+            "matchPackageNames": [
+                "@types/react",
+                "@types/react-{/,}**",
+                "react-{/,}**"
+            ]
         }
     ]
 }

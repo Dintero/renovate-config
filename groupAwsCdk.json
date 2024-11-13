@@ -5,8 +5,12 @@
         {
             "extends": ["schedule:monthly"],
             "groupName": "@aws-cdk packages",
-            "matchPackagePatterns": ["aws-cdk", "aws-cdk-lib", "aws-cdk-local"],
-            "minimumReleaseAge": "10 days"
+            "minimumReleaseAge": "10 days",
+            "matchPackageNames": [
+                "/aws-cdk/",
+                "/aws-cdk-lib/",
+                "/aws-cdk-local/"
+            ]
         }
     ]
 }

@@ -4,8 +4,7 @@
     "packageRules": [
         {
             "groupName": "Storybook packages",
-            "matchPackagePrefixes": ["@storybook/"],
-            "matchPackageNames": ["storybook"]
+            "matchPackageNames": ["storybook", "@storybook/{/,}**"]
         }
     ]
 }

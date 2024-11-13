@@ -2,9 +2,6 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "description": "Group and schedule all sentry updates.",
     "packageRules": [
-        {
-            "groupName": "@sentry",
-            "matchPackagePatterns": ["@sentry/*"]
-        }
+        { "groupName": "@sentry", "matchPackageNames": ["/@sentry/*/"] }
     ]
 }

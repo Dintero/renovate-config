@@ -5,8 +5,8 @@
         {
             "extends": ["schedule:monthly"],
             "groupName": "@aws-sdk packages",
-            "matchPackagePatterns": ["@aws-sdk", "@types/aws"],
-            "minimumReleaseAge": "10 days"
+            "minimumReleaseAge": "10 days",
+            "matchPackageNames": ["/@aws-sdk/", "/@types/aws/"]
         }
     ]
 }

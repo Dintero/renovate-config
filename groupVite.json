@@ -4,10 +4,10 @@
     "packageRules": [
         {
             "groupName": "vite packages",
-            "matchPackagePatterns": [
-                "@vitejs/plugin-react-swc",
-                "vite",
-                "vite-*"
+            "matchPackageNames": [
+                "/@vitejs/plugin-react-swc/",
+                "/vite/",
+                "/vite-*/"
             ]
         }
     ]

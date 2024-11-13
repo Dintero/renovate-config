@@ -4,7 +4,7 @@
     "packageRules": [
         {
             "groupName": "@rollup packages",
-            "matchPackagePrefixes": ["@rollup/"]
+            "matchPackageNames": ["@rollup/{/,}**"]
         }
     ]
 }

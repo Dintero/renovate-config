@@ -5,16 +5,16 @@
         {
             "extends": ["schedule:monthly"],
             "groupName": "eslint packages",
-            "matchPackagePatterns": [
-                "@eslint/*",
-                "@typescript-eslint/*",
-                "eslint",
-                "eslint-*",
-                "prettier",
-                "prettier-*",
-                "typescript-eslint"
-            ],
-            "minimumReleaseAge": "10 days"
+            "minimumReleaseAge": "10 days",
+            "matchPackageNames": [
+                "/@eslint/*/",
+                "/@typescript-eslint/*/",
+                "/eslint/",
+                "/eslint-*/",
+                "/prettier/",
+                "/prettier-*/",
+                "/typescript-eslint/"
+            ]
         }
     ]
 }

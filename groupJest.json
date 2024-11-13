@@ -10,14 +10,15 @@
         {
             "extends": ["schedule:monthly"],
             "groupName": "Jest packages",
-            "matchPackagePrefixes": ["@types/jest-", "jest-"],
             "matchPackageNames": [
                 "@types/jest",
                 "ts-jest",
                 "@types/supertest",
-                "supertest"
-            ],
-            "matchPackagePatterns": ["@cucumber/*"]
+                "supertest",
+                "@types/jest-{/,}**",
+                "jest-{/,}**",
+                "/@cucumber/*/"
+            ]
         }
     ]
 }

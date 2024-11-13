@@ -4,7 +4,7 @@
     "packageRules": [
         {
             "groupName": "lodash packages",
-            "matchPackagePrefixes": ["lodash", "@types/lodash"]
+            "matchPackageNames": ["lodash{/,}**", "@types/lodash{/,}**"]
         }
     ]
 }
