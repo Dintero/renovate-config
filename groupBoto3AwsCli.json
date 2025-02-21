@@ -6,7 +6,12 @@
             "extends": ["schedule:monthly"],
             "groupName": "boto3 / awscli",
             "minimumReleaseAge": "10 days",
-            "matchPackageNames": ["/awscli/", "/boto3/", "/botocore/"]
+            "matchPackageNames": [
+                "/awscli/",
+                "/boto3/",
+                "/botocore/",
+                "/s3transfer/"
+            ]
         }
     ]
 }
