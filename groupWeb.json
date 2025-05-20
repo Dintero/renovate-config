@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group and schedule all @web related updates.",
+    "packageRules": [
+        {
+            "extends": ["schedule:monthly"],
+            "groupName": "@web packages",
+            "minimumReleaseAge": "10 days",
+            "matchPackageNames": ["/@@web/*/"]
+        }
+    ]
+}
