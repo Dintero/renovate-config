@@ -3,6 +3,7 @@
     "packageRules": [
         {
             "groupName": "serverless packages",
+            "allowedVersions": "<4.0.0",
             "matchPackageNames": ["/serverless/", "/serverless-*/"]
         }
     ]
