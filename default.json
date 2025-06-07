@@ -25,7 +25,8 @@
         "github>dintero/renovate-config:groupServerless",
         "github>dintero/renovate-config:groupSmithy",
         "github>dintero/renovate-config:groupTestingLibrary",
-        "github>dintero/renovate-config:groupVite"
+        "github>dintero/renovate-config:groupVite",
+        "github>dintero/renovate-config:groupWeb"
     ],
     "prConcurrentLimit": 1,
     "labels": ["dependencies"],
