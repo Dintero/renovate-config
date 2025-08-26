@@ -26,7 +26,6 @@
         "github>dintero/renovate-config:groupServerless",
         "github>dintero/renovate-config:groupSmithy",
         "github>dintero/renovate-config:groupStorybook",
-        "github>dintero/renovate-config:groupTailwind",
         "github>dintero/renovate-config:groupTestingLibrary",
         "github>dintero/renovate-config:groupVite",
         "github>dintero/renovate-config:groupWeb"
