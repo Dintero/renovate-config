@@ -1,0 +1,15 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Group playwright related updates.",
+    "packageRules": [
+        {
+            "groupName": "playwright npm packages",
+            "matchPackageNames": ["/^@playwright//", "/^playwright$/"]
+        },
+        {
+            "matchDatasources": ["docker"],
+            "matchPackageNames": ["mcr.microsoft.com/playwright"],
+            "groupName": "playwright docker image"
+        }
+    ]
+}
