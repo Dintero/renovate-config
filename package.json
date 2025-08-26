@@ -9,7 +9,7 @@
     "private": true,
     "scripts": {
         "lint": "prettier -c .",
-        "test": "renovate-config-validator --strict group*.json default.json"
+        "test": "renovate-config-validator --strict group*.json default.json && scripts/test-renovate-groups.sh"
     },
     "devDependencies": {
         "prettier": "3.6.2",
