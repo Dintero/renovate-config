@@ -12,7 +12,7 @@
         "test": "renovate-config-validator --strict group*.json default.json && scripts/test-renovate-groups.sh"
     },
     "devDependencies": {
-        "prettier": "3.7.4",
+        "prettier": "3.8.1",
         "renovate": "42.69.2"
     }
 }
