@@ -5,6 +5,7 @@
     ],
     "extends": [
         "config:recommended",
+        "github>dintero/renovate-config:minimumReleaseAge",
         "github>dintero/renovate-config:groupAwsCdk",
         "github>dintero/renovate-config:groupAwsSdk",
         "github>dintero/renovate-config:groupAwsSdkGo",
