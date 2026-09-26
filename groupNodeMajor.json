@@ -9,9 +9,14 @@
             "schedule": ["before 11am on Monday"]
         },
         {
-            "matchManagers": ["npm", "dockerfile"],
+            "matchManagers": ["npm"],
             "constraintsFiltering": "strict",
             "schedule": ["before 11am on Monday"]
+        },
+        {
+            "matchManagers": ["dockerfile"],
+            "constraintsFiltering": "strict",
+            "schedule": ["at any time"]
         }
     ]
 }
