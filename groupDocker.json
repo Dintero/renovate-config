@@ -1,6 +1,9 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "description": "Docker",
+    "registryAliases": {
+        "registry-1.docker.io": "docker.io"
+    },
     "packageRules": [
         {
             "matchDatasources": ["docker"],
